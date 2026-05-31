@@ -104,10 +104,10 @@ export const metadata: Metadata = {
     },
   },
 
-  // Verificacion Google Search Console (agregar cuando tengas el codigo)
-  // verification: {
-  //   google: "TU_CODIGO_DE_VERIFICACION",
-  // },
+  // Verificacion Google Search Console
+  verification: {
+    google: "yCMmdgG3U17hp2I9lzqDOnpc_-inY46LcnsX1V1vYY0",
+  },
 
   alternates: {
     canonical: BASE_URL,
