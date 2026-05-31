@@ -80,12 +80,12 @@ export const metadata: Metadata = {
   // Iconos y favicon
   icons: {
     icon: [
-      { url: "/icon.png", type: "image/png" },
+      { url: "/logo-icon.jpeg", type: "image/jpeg" },
     ],
     apple: [
-      { url: "/logo-nobg.png", sizes: "180x180", type: "image/png" },
+      { url: "/logo-icon.jpeg", sizes: "180x180", type: "image/jpeg" },
     ],
-    shortcut: "/icon.png",
+    shortcut: "/logo-icon.jpeg",
   },
 
   // Manifest PWA

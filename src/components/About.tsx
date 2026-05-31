@@ -330,17 +330,14 @@ export default function About() {
             <Image
               src="/juan-founder.png"
               alt="Juan José Gil — Fundador Fitvang"
-              width={420}
-              height={560}
+              fill
+              sizes="(max-width: 768px) 100vw, 420px"
               style={{
-                position: "absolute",
-                inset: 0,
-                width: "100%",
-                height: "100%",
                 objectFit: "cover",
                 objectPosition: "center top",
                 filter: "grayscale(1) contrast(1.25) brightness(0.78)",
               }}
+              priority
             />
 
             {/* Overlay azul cinematico — tinte de profundidad */}
